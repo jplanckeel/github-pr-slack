@@ -1,7 +1,7 @@
 {
   "name": "github-pr-slack",
   "description": "On github pull request page format message for slack.",
-  "version": "0.0.3",
+  "version": "0.0.2",
   "manifest_version": 3,
   "action": {
     "default_popup": "github-pr-slack.html"
