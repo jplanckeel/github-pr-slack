@@ -1,0 +1,22 @@
+{
+  "name": "github-pr-slack",
+  "description": "On github pull request page format message for slack.",
+  "version": "0.0.3",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "github-pr-slack.html"
+  },
+  "permissions": [
+   "activeTab",
+   "scripting",
+   "tabs",
+   "clipboardWrite"
+   ],
+   "icons": { "128": "images/pr_128px.png" },
+   "browser_specific_settings": {
+    "gecko": {
+      "id": "github-pr-slack@jplanckeel",
+      "strict_min_version": "109.0"
+    }
+  }
+}
