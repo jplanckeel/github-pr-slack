@@ -6,7 +6,7 @@ document.querySelector('.review').addEventListener('click', function () {
         var current = tabs[0];
         url = current.url;
         title = current.title;
-        extractTitle = title.match(/(.*) · Pull Request #(/d+) · (.*)/i)
+        extractTitle = title.match(/(.*) · Pull Request #(\d+) · (.*)/i)
         console.log(extractTitle)
         prTitle= extractTitle[1]
         prId= extractTitle[2]
@@ -26,7 +26,7 @@ document.querySelector('.merged').addEventListener('click', function () {
         var current = tabs[0];
         url = current.url;
         title = current.title;
-        extractTitle = title.match(/(.*) · Pull Request #(/d+) · (.*)/i)
+        extractTitle = title.match(/(.*) · Pull Request #(\d+) · (.*)/i)
         console.log(extractTitle)
         prTitle= extractTitle[1]
         prId= extractTitle[2]
